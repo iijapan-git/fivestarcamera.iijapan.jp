@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/*
+Theme Name: kobostock
+Theme URI: -
+Description: kobostock theme
+Author: -
+Author URI: -
+Version: 1.0
+*/
+.hbtn{
+	clear:both;
+	display:block !important;
+}
+.tel-btn a{ position:relative; display:block !important; height:auto !important; }
+.post p{
+	line-height:1.7em;
+	padding-bottom:20px;
+}
+.alignright{
+	display: block;
+	text-align:right !important;
+	margin-left:auto !important;
+}
+.alignleft{
+	display: block;
+	text-align:left !important;
+}
+.aligncenter{
+	display: block;
+	text-align:center !important;
+	margin:0 auto !important;
+}
+
+.clearfix:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+	
+.clearfix{display: inline-block;} 
+
+/* Hides from IE Mac \*/
+* html .clearfix {height: 1%;}
+.clearfix{display:block;}
+
+.post img{
+	max-width:100%;
+	height:auto;
+}
+#fkotei{ display:none; }
+
+h2.h2-2{
+	margin-bottom:15px;
+}
+.contactall1 .contact1{
+	height:190px;
+	position:relative;
+}
+.contactall1 .contact1 .cont1-img2{
+	positoin:absolute;
+	bottom:0;
+}
+.cont1-txt{
+	display:block;
+	padding:0 0 40px 50px;
+}
+
+.voice01:after{
+  content: "."; 
+  display: block; 
+  height: 0; 
+  font-size:0;	
+  clear: both; 
+  visibility:hidden;
+}
+	
+.voice01{display: inline-block;} 
+
+/* Hides from IE Mac \*/
+* html .voice01{height: 1%;}
+.voice01{display:block;}
+/* End Hack */ 
+/* スキップ */
+.voice-right{
+	padding-top:50px;
+}
+.faq1 .question,.faq1 .answer{
+	padding-top:20px; 
+	padding-bottom:15px;
+}
+.faq1 .question img, .faq1 .answer img {
+    float: left;
+    margin-top:-10px !important;
+}
+
+.cont-bl1 p{ padding-top:10px; }
+
+@media only screen and (max-width: 640px) {
+.logo{
+	margin:5px 10px 5px !important;
+}
+.top-header{
+	height:auto !important;
+}
+.header-content{ clear:both; background:none !important; height:auto !important; } 
+#fkotei{
+	display:block;
+	position:fixed;
+	bottom:0;
+	width:100%;
+	z-index: 1000;
+}
+#fkotei ul li{
+	float:left;
+	width:50%;
+	height:auto;
+	margin:0;
+	padding:0;
+}
+#fkotei ul li a{
+	display:block !important;
+	padding:10px 5px 10px 30px;
+	color:#fff;
+	font-weight:bold;
+	font-size:0.8em;
+	text-align:center;
+}
+#fkotei ul li.ftel a{
+	background:url(img/ic_foot_tel.png) no-repeat 13px center;
+	background-size:16px 16px;
+}
+#fkotei ul li.fmail a{
+	background:url(img/ic_foot_mail.png) no-repeat 13px center;
+	background-size:16px 16px;
+}
+#fkotei ul li.ftel{
+	background-color: #BB342E;
+}
+#fkotei ul li.fmail{
+	background-color: #C8A655;
+}
+
+.voice-right{
+	padding-top:10px !important;
+}
+.faq1 .question img, .faq1 .answer img {
+    float: left;
+    margin-top:25px !important;
+}
+
+}

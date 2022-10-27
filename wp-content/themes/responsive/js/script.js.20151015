@@ -1,0 +1,61 @@
+$(function() {
+		var pull 		= $('#pull');
+			menu 		= $('.gnav ul');
+			menuHeight	= menu.height();
+
+		$(pull).on('click', function(e) {
+			e.preventDefault();
+			menu.slideToggle();
+			pull.toggleClass("open");
+			if($(this).hasClass('open')) {
+  		 	$("#pull span").text("Close");
+  		 }else {
+  		 	$("#pull span").text("Menu");
+  		 }
+		});
+
+		$(window).resize(function(){
+			var w = $(window).width();
+			if(w > 320 && menu.is(':hidden')) {
+				menu.removeAttr('style');
+			}
+		});
+	});
+$(document).ready(function () {
+    function scrollToElement(target, topoffset) {
+        var topoffset = topoffset;
+        var speed = 800;
+        var destination = jQuery(target).offset().top - topoffset;
+        jQuery('html:not(:animated),body:not(:animated)').animate({
+            scrollTop: destination
+        }, speed, function () {
+            window.location.hash = target;
+        });
+        return false;
+    }
+	/*gototop*/
+    $(".gototop").click(function () {
+        scrollToElement(".header", 0);
+    });
+
+	
+		window.fbAsyncInit = function () {
+            FB.init({
+                appId: '444677842360161',
+                xfbml: true,
+                version: 'v2.3'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) {
+                return;
+            }
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+
+});
