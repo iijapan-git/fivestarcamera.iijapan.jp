@@ -37,6 +37,15 @@
 	font-weight: bold;
 }
 
+/* inner-title */
+.inner-title {
+    padding-top: 20px;
+	padding-bottom: 10px;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    line-height: 18px;
+}
+
 /* forth-title */
 .forth-title {
 	margin: 20px 0 6px;
@@ -545,6 +554,10 @@
 	position: absolute;
 	top: 21px;
 	left: 166px;
+	width: 400px;
+}
+.contact-block .information .tel-button img {
+	width: 100%;
 }
 .contact-block .information .mail-button {
 	position: absolute;
@@ -1302,6 +1315,9 @@
 	top: 15px;
 	left: 210px;
 }
+.contact-tel-block .tel-button img {
+	max-width: 560px;
+}
 
 /* form-title */
 .inquiry-block {
@@ -1838,6 +1854,7 @@
 		left: inherit;
 		padding: 14px 0 12px;
 		text-align: center;
+		width: auto;
 	}
 	.contact-block .information .tel-button img {
 		max-width: 400px;

@@ -141,7 +141,7 @@ img {
 	float: right;
 	margin-top: 26px;
 }
-.header-middle .contact .tel {}
+.header-middle .contact .tel a img {max-width: 249px;}
 .header-middle .contact .mail {
 	margin-top: 10px;
 }

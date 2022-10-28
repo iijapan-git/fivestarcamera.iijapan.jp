@@ -51,8 +51,8 @@
 			<li><a href="<?php echo get_site_url(); ?>/privacy-policy">プライバシーポリシー</a></li>
 		</ul>
 	</div>
-	<p style="line-height: 160%; margin-top: 30px; margin-bottom: 15px;">ファイブスターカメラ<br>〒939-8271 富山県富山市太郎丸西町1-9-1</p>
-	<p style="line-height: 160%; margin-bottom: 15px;">東京リユースコールセンター<br>〒160-0000　東京都新宿区新宿5-11-30 新宿第五葉山ビル3F<br>（電話受付のみ・店頭対応不可）</p>
+	<p style="line-height: 160%; margin-top: 30px; margin-bottom: 15px;">ファイブスターカメラ 富山店<br>〒939-8271 富山県富山市太郎丸西町1-9-1</p>
+	<p style="line-height: 160%; margin-bottom: 15px;">ファイブスターカメラ 西新宿店<br>〒160-0023 東京都新宿区西新宿1-13-6 浜夕ビル2階</p>
 	<p>富山県公安委員会許可 古物商許可番号　第501150000693号<br/><span>Copyright (c) 2017 fivestarcamera.net. All Rights Reserved.</span></p>
 </div><!--footer-->
 

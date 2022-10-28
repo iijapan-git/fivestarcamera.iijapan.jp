@@ -7,6 +7,7 @@ get_header();
 <div id="top-slider">
 	<div class="wbox">
 		<ul>
+			<li><img src="<?php bloginfo('template_directory'); ?>/img/slide_open.png" alt="ファイブスターカメラ西新宿店 GRAND OPEN"/></li>
 			<li><img src="<?php bloginfo('template_directory'); ?>/img/slide_01.jpg" alt="あなたの大切なカメラ　どの店よりも高く買い取ります。熟練のスタッフによる安心査定！買取のことなら何でもご相談ください。"/></li>
 			<li><img src="<?php bloginfo('template_directory'); ?>/img/slide_02.jpg" alt="様々な買取が可能です！フィルムカメラ、一眼レフ、レンジファインダーカメラ、コンパクトフィルムカメラ、中判・大判カメラ、デジタル一眼レフカメラ、コンパクトデジタルカメラ、ミラーレス一眼カメラ、交換レンズ、アクセサリー。"/></li>
 			<li><img src="<?php bloginfo('template_directory'); ?>/img/slide_03.jpg" alt="高価買取できる３つの理由。１.熟練のスタッフによる確かな査定。２.魅力を引き出すメンテナンス。３.徹底したローコスト店舗運営。"/></li>
@@ -78,6 +79,15 @@ get_header();
 		</div>
 	</section>
 </section>
+<section class="top-block wbox">
+	<div class="icon"><img src="<?php bloginfo('template_directory'); ?>/img/ic_camera.gif" alt="カメラ"/></div>
+	<h2 class="title title-ja"><span>ファイブスターカメラ西新宿店グランドオープン！！</span></h2>
+
+	<div class="online-shops">
+		<div class="official"><a href="<?php echo get_site_url(); ?>/company-profile#west-shinjuku"><img src="<?php bloginfo('template_directory'); ?>/img/p_grandopen.png" alt="西新宿店オープン" width="100%"/></a></div>
+	</div>
+</section>
+
 <section class="top-block wbox">
 	<div class="icon"><img src="<?php bloginfo('template_directory'); ?>/img/ic_camera.gif" alt="カメラ"/></div>
 	<h2 class="title title-ja"><span>実店舗リニューアルオープン！！</span></h2>
